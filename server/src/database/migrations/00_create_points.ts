@@ -13,9 +13,7 @@ export async function up(knex: Knex) {
     table.string('uf', 2).notNullable()
   })
 
-
 }
 export default function down(knex: Knex) {
-  return knex.schema.dropTable('point')
-
+  return knex.schema.dropTable('points')
 }

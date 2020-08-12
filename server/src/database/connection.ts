@@ -7,7 +7,7 @@ const connection = knex({
     host : '127.0.0.1',
     user : 'root',
     password : 'numsey',
-    database : 'nextweek'
+    database : 'nextweek',
   }
 })
 
